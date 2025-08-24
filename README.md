@@ -22,7 +22,7 @@ add :
 
 open : TFT_eSPI/Extensions/Touch.h
 
-add: 
+replace 
 
 void TFT_eSPI::convertRawXY(uint16_t *x, uint16_t *y)
 {
