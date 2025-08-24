@@ -3,8 +3,18 @@ original projet of https://github.com/cifertech
 Library TFT_eSPI
 
 open : User_Setup.h:
-add : #define TOUCH_INVERT_X   false   // true = inverti X, false = normale
+add :
+
+
+
+#define TOUCH_INVERT_X   false   // true = inverti X, false = normale
       #define TOUCH_INVERT_Y   true   // true = inverti Y, false = normale
+
+
+      
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 open : TFT_eSPI/Extensions/Touch.h
 
